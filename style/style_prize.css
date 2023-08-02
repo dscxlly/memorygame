@@ -78,9 +78,10 @@ span {
     font-weight: 900;
 }
 
-h3.ily {
+.ily {
     font-family: 'Koulen', cursive;
     font-size: 40px;
+    font-weight: 600;
     justify-content: center;
 }
 
