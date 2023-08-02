@@ -143,7 +143,7 @@ const matrixGenerator = (cardValues, size = 6) => {
                 <h2>You Won</h2>
                 <h4>Moves: ${movesCount}</h4>
                 <br><br> .
-                <a href="prize.html">Click to collect your prize</a>
+                <a href="prize.html">Click here!</a>
                 <br><br><br>  .
                 `;
                 stopGame();
