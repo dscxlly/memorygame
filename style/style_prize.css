@@ -29,6 +29,10 @@ button {
     font-size: 25px;
 }
 
+input {
+    padding: 1px;
+}
+
 .popup {
     width: 50em;
     height: 39.5em;
@@ -76,6 +80,12 @@ button {
 span {
     font-family: 'Neuton', serif;
     font-weight: 900;
+}
+
+.ily {
+    font-family: 'Koulen', cursive;
+    font-size: 40px;
+    justify-content: center;
 }
 
 .popup .download-btn {
