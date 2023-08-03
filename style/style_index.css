@@ -13,8 +13,8 @@ body {
 
 .wrapper {
     box-sizing: content-box;
-    width: 32em;
-    height: 39.5em;
+    width: 22em;
+    height: 30em;
     padding: 3em 3em;
     background-color: #FFFFFF;
     position: absolute;
@@ -44,8 +44,8 @@ body {
 
 .card-container {
     position: relative;
-    width: 4.8em;
-    height: 4.8em;
+    width: 3.2em;
+    height: 3.2em;
     cursor: pointer;
 }
 
