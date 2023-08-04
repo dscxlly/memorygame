@@ -49,6 +49,11 @@ body {
     cursor: pointer;
 }
 
+.card-container img {
+    width: 2.4em;
+    height: 2.4em;
+}
+
 .card-before, .card-after {
     position: absolute;
     border-radius: 5px;
@@ -67,11 +72,6 @@ body {
     font-size: 2.8em;
     font-weight: 400;
     color: #000000;
-}
-
-.image {
-    width: 2.4em;
-    height: 2.4em;
 }
 
 .card-after {
