@@ -69,6 +69,11 @@ body {
     color: #000000;
 }
 
+.image {
+    width: 2.4em;
+    height: 2.4em;
+}
+
 .card-after {
     background-color: #FFFFFF;
     transform: rotateY(180deg);
