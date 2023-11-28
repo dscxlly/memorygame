@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 * {
+    /* Define o estilo padrão para todos os elementos */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,34 +9,37 @@
 }
 
 body {
-    background-color: #57007E;
+    /* Estilo do corpo da página */
+    background-color: cornflowerblue;
 }
 
 .wrapper {
+    /* Estilo do contêiner principal */
     box-sizing: content-box;
-    width: 22em;
-    height: 30em;
-    padding: 3em 3em;
+    width: 256px;
+    height: 384px;
+    padding: 48px 48px;
     background-color: #FFFFFF;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     border: solid 4px #000000;
-    border-radius: 0.6em;
-    box-shadow: 0 0.9em e.8em rgba(86, 66, 0, 0.2);
+    border-radius: 10px;
 }
 
 .game-container {
+    /* Estilo do contêiner do jogo */
     position: relative;
     width: 100%;
     display: grid;
-    gap: 0.6em;
+    gap: 10px;
 }
+
 
 .stats-container {
     text-align: right;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .stats-container span {
@@ -43,18 +47,21 @@ body {
 }
 
 .card-container {
+    /* Estilo da carta */
     position: relative;
-    width: 3.2em;
-    height: 3.2em;
+    width: 52px;
+    height: 52px;
     cursor: pointer;
 }
 
 .card-container img {
-    width: 2.4em;
-    height: 2.4em;
+    /* Estilo da imagem dentro da carta */
+    width: 38px;
+    height: 38px;
 }
 
 .card-before, .card-after {
+    /* Estilo da frente e do verso da carta */
     position: absolute;
     border-radius: 5px;
     width: 100%;
@@ -68,26 +75,31 @@ body {
 }
 
 .card-before {
-    background-color: #57007E;
-    font-size: 2.8em;
+    /* Estilo da frente da carta (lado com ?) */
+    background-color: coral;
+    font-size: 44px;
     font-weight: 400;
     color: #000000;
 }
 
 .card-after {
+    /* Estilo do verso da carta (lado com a imagem) */
     background-color: #FFFFFF;
     transform: rotateY(180deg);
 }
 
 .card-container.flipped .card-before {
+    /* Animação de virar a carta */
     transform: rotateY(180deg);
 }
 
 .card-container.flipped .card-after {
+    /* Animação de virar a carta */
     transform: rotateY(0deg);
 }
 
 .controls-container {
+    /* Estilo do contêiner de controles */
     position: absolute;
     display: flex;
     align-items: center;
@@ -95,73 +107,49 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: #57007E;
+    background-color: cornflowerblue;
     top: 0;
 }
 
 button {
+    /* Estilo padrão do botão */
     border: none;
-    border-radius: 0.3em;
-    padding: 1em 1.5em;
+    border-radius: 8px;
+    padding: 20px 26px;
     cursor: pointer;
 }
 
 #stop {
-    font-size: 1.1em;
+    /* Estilo do botão de parar o jogo */
+    font-size: 20px;
     display: block;
-    margin: 1em auto 0 auto;
-    background-color: #000000;
-    color: #FFFFFF;
+    margin: 16px auto 0 auto;
+    background-color: black;
+    color: white;
 }
 
 #start {
-    background-color: #000000;
-    color: #FFFFFF;
+    /* Estilo do botão de iniciar o jogo */
+    background-color: white;
+    color: black;
+    border: 3px solid black;
 }
 
 
 .controls-container button {
-    font-size: 1.3em;
-    box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
+    /* Estilo geral dos botões de controle */
+    font-size: 20px;
 }
 
 .hide {
+    /* Classe para esconder elementos */
     display: none;
 }
 
 #result {
+    /* Estilo do resultado do jogo */
     text-align: center;
-}
-
-#result h2 {
-    font-size: 80px;
-    font-weight: 100;
-    color: #000000;
-}
-
-#result h4 {
-    font-size: 2em;
-    margin: 0.6em 0 1em 0;
-    color: #000000;
-}
-
-#result a {
-    text-decoration: none;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 0.3em;
-    padding: 1em 1.5em;
-    cursor: pointer;
-    background-color: #000000;
-    font-size: 30px;
-}
-
-
-#title {
-    text-align: center;
-    font-weight: lighter;
-}
-
-p {
-    text-align: justify ;
+    font-size: 50px;
+    font-weight: 0px;
+    color: white;
 }

@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadados da Página -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something Symbolic</title>
+    <!-- Título da Página -->
+    <title>Jogo da Memória</title>
+    <!-- Link para o Estilo CSS -->
     <link rel="stylesheet" href="style/style_index.css">
-    <link rel="icon" href="img/koala.png?">
 </head>
 <body>
+    <!-- Corpo da Página -->
     <div class="wrapper">
+        <!-- Contêiner de Estatísticas -->
         <div class="stats-container">
             <div id="moves-count"></div>
             <div id="time"></div>
         </div>
+        <!-- Contêiner do Jogo -->
         <div class="game-container"></div>
-        <button id="stop" class="hide">Stop Game</button>
+        <!-- Botão de Parar Jogo -->
+        <button id="stop" class="hide">Parar</button>
     </div>
+    <!-- Contêiner de Controles -->
     <div class="controls-container">
         <p id="result"></p>
-        <button id="start">Start Game</button>
+        <!-- Botão de Iniciar Jogo -->
+        <button id="start">Jogar</button>
     </div>
-    
-<!--script-->
-    <script src="script/script_index.js"></script>
+    <!-- Script do Jogo -->
+    <script src="script/app.js"></script>
 </body>
 </html>
