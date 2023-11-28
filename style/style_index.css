@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
+/* ESTILO DEFINIDO DA PÁGINA*/
+
 * {
     /* Define o estilo padrão para todos os elementos */
     padding: 0;
@@ -12,6 +14,8 @@ body {
     /* Estilo do corpo da página */
     background-color: cornflowerblue;
 }
+
+/* WRAPPER É O CONTÊINER QUE GUARDA TODO O JOGO, O QUADRADO BRANCO */
 
 .wrapper {
     /* Estilo do contêiner principal */
@@ -46,6 +50,8 @@ body {
     font-weight: 600;
 }
 
+/* ESTILO DAS CARTAS DO JOGO */
+
 .card-container {
     /* Estilo da carta */
     position: relative;
@@ -60,6 +66,8 @@ body {
     height: 38px;
 }
 
+/* ESTILO DAS FACES DAS CARTAS */
+
 .card-before, .card-after {
     /* Estilo da frente e do verso da carta */
     position: absolute;
@@ -73,6 +81,8 @@ body {
     transition: transform 0.7s ease-out;
     backface-visibility: hidden;
 }
+
+ /* ANIMAÇÕES DAS CARTAS (MOVIMENTO AO SER CLICADA) */
 
 .card-before {
     /* Estilo da frente da carta (lado com ?) */
@@ -98,6 +108,8 @@ body {
     transform: rotateY(0deg);
 }
 
+/* ESTILO DOS CONTROLES, BASICAMENTE ONDE APARECEM OS BOTÕES, OS MOVIMENTOS E O TEMPO */
+
 .controls-container {
     /* Estilo do contêiner de controles */
     position: absolute;
@@ -118,6 +130,8 @@ button {
     padding: 20px 26px;
     cursor: pointer;
 }
+
+/* ESTILO DE CADA BOTÃO ESPECÍFICO E EXIBIÇÃO DO RESULTADO */
 
 #stop {
     /* Estilo do botão de parar o jogo */
